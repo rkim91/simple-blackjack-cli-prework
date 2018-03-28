@@ -30,8 +30,13 @@ end
 
 def hit?(x)
   prompt_user
-  get_user_input
-  x
+  answer = get_user_input
+  if answer = "h"
+    return sum = x + deal_card
+  end
+  if answer = "s"
+    return x
+  end
 end
 
 def invalid_command
