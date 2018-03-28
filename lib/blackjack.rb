@@ -49,6 +49,6 @@ end
 def runner
   welcome
   initial_round
-  hit?
+  hit?(x)
 
 end
