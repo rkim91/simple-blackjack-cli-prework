@@ -31,7 +31,7 @@ end
 def hit?(x)
   prompt_user
   if get_user_input == 'h'
-    x + deal_card
+    x
   elsif get_user_input == 's'
     x
   end
