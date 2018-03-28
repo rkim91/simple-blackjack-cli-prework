@@ -31,9 +31,9 @@ end
 def hit?(x)
   prompt_user
   answer = get_user_input
-  if answer = "s"
+  if answer == "s"
     x
-  elsif answer = "h"
+  elsif answer == "h"
     x + deal_card
   end
 end
