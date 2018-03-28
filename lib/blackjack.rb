@@ -29,7 +29,7 @@ def initial_round
 end
 
 def hit?(test)
-  prompt_user
+  prompt_user(get_user_input)
 end
 
 def invalid_command
