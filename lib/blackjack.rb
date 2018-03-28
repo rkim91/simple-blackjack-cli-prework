@@ -1,9 +1,10 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-  # code #deal_card here
+  card = deal_card
+  puts card
 end
 
 def display_card_total
@@ -41,4 +42,3 @@ end
 def runner
   # code runner here
 end
-    
