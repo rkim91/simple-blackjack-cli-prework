@@ -26,8 +26,8 @@ def initial_round
   2.times do
     deal_card
   end
-  deal_card + deal_card
-  puts display_card_total(number)
+  x = deal_card + deal_card
+  puts display_card_total(x)
 end
 
 def hit?
