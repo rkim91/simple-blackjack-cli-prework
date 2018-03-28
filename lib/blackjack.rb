@@ -34,6 +34,7 @@ def hit?(x)
   if var == 'h'
     x + deal_card
   end
+  x
 end
 
 def invalid_command
