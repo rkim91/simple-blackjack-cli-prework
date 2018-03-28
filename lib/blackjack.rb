@@ -8,6 +8,7 @@ end
 
 def display_card_total(number)
   number
+  puts number
 end
 
 def prompt_user
