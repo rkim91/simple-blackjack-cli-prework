@@ -32,7 +32,8 @@ def hit?(x)
   prompt_user
   var = get_user_input
   if var == 'h'
-    x + deal_card
+    sums = x + deal_card
+    sums
   end
   x
 end
