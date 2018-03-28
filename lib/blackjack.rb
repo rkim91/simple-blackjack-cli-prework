@@ -31,11 +31,11 @@ end
 def hit?(x)
   prompt_user
   answer = get_user_input
-  if answer = "h"
-    return sum = x + deal_card
-  end
   if answer = "s"
     return x
+  end
+  if answer = "h"
+    return sum = x + deal_card
   end
 end
 
