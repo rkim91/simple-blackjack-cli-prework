@@ -30,8 +30,10 @@ end
 
 def hit?(x)
   prompt_user
-  get_user_input
-  return x 
+  if get_user_input == 'h'
+    x + sum
+  elsif get_user_input == 's'
+    x 
 end
 
 def invalid_command
