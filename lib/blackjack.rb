@@ -46,9 +46,9 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(bj)
   welcome
   initial_round
   hit?
-  
+
 end
