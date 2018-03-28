@@ -28,7 +28,7 @@ def initial_round
   sum
 end
 
-def hit?
+def hit?(test)
   prompt_user
 end
 
