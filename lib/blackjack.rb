@@ -48,7 +48,6 @@ end
 
 def runner
   welcome
-  hit?(initial_round)
-  display_card_total(hit?)
+  display_card_total(hit?(initial_round))
 
 end
