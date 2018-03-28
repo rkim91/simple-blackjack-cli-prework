@@ -30,11 +30,7 @@ end
 
 def hit?(x)
   prompt_user
-  var = get_user_input
-  if var == 'h'
-    sums = x + deal_card
-  end
-  sums
+  get_user_input
 end
 
 def invalid_command
