@@ -33,8 +33,7 @@ def hit?(x)
   answer = get_user_input
   if answer = "s"
     x
-  end
-  if answer = "h"
+  elsif answer = "h"
     x + deal_card
   end
 end
