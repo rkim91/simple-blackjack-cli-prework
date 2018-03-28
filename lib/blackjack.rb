@@ -33,6 +33,7 @@ def hit?(x)
   var = get_user_input
   if var == 'h'
     sums = x + deal_card
+    sums
   end
   sums
 end
