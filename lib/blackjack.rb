@@ -47,8 +47,8 @@ end
 #####################################################
 
 def runner(bj)
-  welcome(bj)
-  initial_round(bj)
-  hit?(bj)
+  welcome
+  initial_round
+  hit?
 
 end
