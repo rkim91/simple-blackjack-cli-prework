@@ -28,10 +28,10 @@ def initial_round
   sum
 end
 
-def hit?(int)
+def hit?(x)
   prompt_user
   get_user_input
-  int 
+  x 
 end
 
 def invalid_command
